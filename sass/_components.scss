@@ -1,0 +1,24 @@
+// Components: anything resuable such as 
+// buttons, navbars, cards etc. 
+/* Anything reusable such as buttons, navbars, cards etc.. */
+footer {
+    color: #c2c2c2;
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+    padding: 20px 0;
+    margin: 20px 0; 
+    text-align: center;
+    p {
+    text-align: center;
+    vertical-align: bottom; }
+    }
+
+@include desktop {
+    footer  {
+            p {
+                text-align: left;
+                padding-left: 50px;  
+        }
+    }
+}
